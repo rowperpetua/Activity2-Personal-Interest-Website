@@ -242,3 +242,111 @@ nav.sticky{
     font-size: 32px;
     font-weight: 600;
 }
+
+/* Pets Section */
+.pets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 74px;
+}
+
+.pets-headlines{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.pets-headlines i{
+    font-size: 56px;
+    color: #7291ff;
+}
+
+.pets-headlines h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.pets-collection {
+    display: flex;
+    gap: 28px;
+    margin-top: 74px;
+}
+
+.pet-item{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    transition: 0.5s ease-out;
+}
+
+.pet-item h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.btn-pets{
+    width: 269px;
+    height: 60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0px;
+    margin-top: 48px;
+}
+
+/* About Section */
+.about{
+    display: flex;
+    margin-top: 100px;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-headlines{
+    display: flex;
+    flex-direction: column;
+    width: 885px;
+}
+
+.about-headlines h1{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.about-headlines p{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.about-info{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 76px;
+    margin-top: 40px;
+}
+
+.about-info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-info-item h5{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.about-info-item h6{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about-headlines button{
+    margin-top: 48px;
+}
