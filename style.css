@@ -363,6 +363,33 @@ nav.sticky{
     margin-top: 48px;
 }
 
+/*Donate Section*/
+.donate{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    width: 132px;
+}
+
+.donate button{
+    display:block;
+    cursor: pointer;
+    font: inherit;
+    position: relative;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 12px 0;
+    -webkit-appearance: none;
+    transform-style: preserve-3d;
+    border-radius: var(--border-radius, 6px);
+    color: var(--button-color);
+    background: var(--background, var(--button-background));
+}
+
 /*Testimonials Section*/
 .testimonials{
     display: flex;
