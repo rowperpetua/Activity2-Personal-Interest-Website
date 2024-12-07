@@ -9,7 +9,7 @@
 }
 
 :root {
-  --accent: #ff9a24;
+  --accent: white;
   --black: #131313;
 }
 body {
@@ -36,15 +36,15 @@ nav{
     justify-content: space-between;
     align-items: center;
     color: var(--black);
-    background-color: white;
+    background-color: #7ed957;
     padding: 30px 50px;
     transition: all 0.4s ease-out;
     filter: drop-shadow(5px 5px 10px transparent);
 }
 
 nav.sticky{
-    background-color: white;
-    filter: drop-shadow(5px 5px 10px #ffbe745e);
+    background-color: #d9b957;
+    filter: drop-shadow(5px 5px 10px #7ed957);
 }
 
 .brand {
@@ -81,13 +81,13 @@ nav.sticky{
     font-size: 24px;
     font-weight: 400;
     border-radius: 32px;
-    background-color: white;
+    background-color: #7ed957;
     padding: 10px;
     transition: all 0.2s ease-out;
 }
 
 .menu a:hover{
-    background-color: var(--accent);
+    background-color: var(--black);
     color: white;
 }
 
@@ -145,7 +145,7 @@ nav.sticky{
     font-size: 64px;
     font-weight: 900;
 }
-
+    
 .hero-headlines p{
     font-size: 24px;
     font-weight: 600;
@@ -165,11 +165,13 @@ nav.sticky{
     color: white;
     border-radius: 12px;
     transition: all 0.2s ease-out;
+    text-decoration: none
 }
 
 .btn-3:hover{
     background-color: var(--black);
-    border: 1px solid var(--black);
+    border: 1px solid var(--accent);
+    cursor: pointer;
 }
 
 .btn-transparent {
@@ -179,7 +181,7 @@ nav.sticky{
 
 .btn-transparent:hover {
     background-color: var(--accent);
-    color: white;
+    color: #7ed957;
 }
 
 .hero-images{
@@ -190,7 +192,7 @@ nav.sticky{
 
 /*Requirements Section*/
 .requirements{
-    margin-top: 50px;
+    margin-top: 150px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -202,7 +204,7 @@ nav.sticky{
 }
 
 .requirements-headlines h1{
-    font-size: 96px;
+    font-size: 80px;
     font-weight: 900;
 }
 
@@ -239,7 +241,7 @@ nav.sticky{
 }
 
 .r-item h5{
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -248,7 +250,7 @@ nav.sticky{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 74px;
+    margin-top: 150px;
 }
 
 .pets-headlines{
@@ -287,13 +289,13 @@ nav.sticky{
 }
 
 .btn-pets{
-    width: 269px;
+    width: 300px;
     height: 60;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     margin-top: 48px;
 }
 
@@ -337,12 +339,22 @@ nav.sticky{
     align-items: center;
 }
 
+.a-logo{
+    width: 25px;
+    height: 50px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-info-item h5{
     font-size: 36px;
     font-weight: 800;
 }
 
 .about-info-item h6{
+    text-align: center;
     font-size: 24px;
     font-weight: 700;
 }

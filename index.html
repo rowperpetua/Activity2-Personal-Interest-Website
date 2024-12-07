@@ -37,13 +37,13 @@
         <!-- Link For Split Type -->
         <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
 
-        <title>Purrfect | Pet Adoption</title>
+        <title>Pet Adoption Website</title>
     </head>
     <body>
         <!--Navbar-->
         <nav>
             <a href="index.html" class="brand">
-                <h1>Purr<b class="accent">fect</b></h1>
+                <h1>Paw<b class="accent">sitive</b></h1>
             </a>
             <div class="menu">
                 <div class="btn">
@@ -53,7 +53,6 @@
                 <a href="index.html#pets">Pets</a>
                 <a href="index.html#requirements">Requirements</a>
                 <a href="index.html#about">About</a>
-                <a href="index.html#stories">Stories</a>
             </div>
             
             <button class="btn-2" onclick="window.location.href='contact.html'">
@@ -66,14 +65,13 @@
             </div>
         </nav>
 
-
         <!-- Hero Page Section -->
         <section class="heropage">
             <div class="hero-headlines">
-                <h1>Find your Purrfect Pet Soul Today!</h1>
-                <p>Discover Your Perfect Companion in our Selection off Loving Pets Available for Adoption.</p>
+                <h1>Pet Adoption Website</h1>
+                <p>This is a user-friendly adoption website as a hub for multiple organizations that house shelters for pets.</p>
                 <div class="hero-headlines-buttons">
-                    <button class="btn-3">Our Pets</button>
+                    <button class="btn-3" onclick="window.location.href='index.html#pets'">Pets</button>
                     <button class="btn-3 btn-transparent">Contact Us</button>
                 </div>
                 <div class="hero-images">
@@ -84,10 +82,46 @@
             </div>
         </section>
 
+        <!--About Section-->
+        <div class="about" id="about">
+            <div class="about-headlines">
+                <h1>About PAWS</h1>
+                <p class="reveal-type" data-bg-color="#cccccc" data-fg-color="black">
+                    PAWS is a registered non-profit organization which is dedicated to the protection and the promotion of humane treatment of all animals.
+                </p>
+
+                <div class="about-info">
+                    <div class="about-info-item">
+                        <div class="a-logo">
+                            <i class="fa-solid fa-syringe"></i>
+                        </div>
+                        <h6>Low-Cost Kapon</h6>
+                    </div>
+                    <hr class="about-info-divider" />
+                    <div class="about-info-item">
+                        <div class="a-logo">
+                            <i class="fa-solid fa-capsules"></i>
+                        </div>
+                        <h6>Deworming and Vaccination</h6>
+                    </div>
+                    <hr class="about-info-divider" />
+                    <div class="about-info-item">
+                        <div class="a-logo">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h6>Dental Services</h6>
+                    </div>
+                </div>
+                <a href="https://paws.org.ph" class="btn-3 btn-pets">Visit PAWS Website<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <img src="img/about-img.png" alt="img" />
+        </div>
+
+        <!-- Requirements -->
         <section class="requirements" id="requirements">
             <div class="requirements-headlines">
-                <h1>Our Process For Adoption</h1>
-                <p>Our process is simple and filledwith joy every step of the way:</p>
+                <h1>PAWS Adoption Process</h1>
+                <p>These are the steps to adopting a pet according to the PAWS website:</p>
 
                 <div class="r-item-container">
                     <!-- r item 1 -->
@@ -95,7 +129,7 @@
                         <div class="r-logo" style="background-color: #b9ff46;">
                             <i class="fa-regular fa-newspaper"></i>
                         </div>
-                        <h5>Submitting an application</h5>
+                        <h5>Submit the adoption application form</h5>
                     </div>
 
                     <!-- r item 2 -->
@@ -103,7 +137,7 @@
                         <div class="r-logo" style="background-color: #fff846;">
                             <i class="fa-solid fa-phone"></i>
                         </div>
-                        <h5>Attending an online interview</h5>
+                        <h5>Attend the zoom interview</h5>
                     </div>
 
                     <!-- r item 3 -->
@@ -111,15 +145,31 @@
                         <div class="r-logo" style="background-color: #ff8846;">
                             <i class="fa-solid fa-paw"></i>
                         </div>
-                        <h5>Meeting the pet in person</h5>
+                        <h5>Meet the shelter animal in person</h5>
+                    </div>
+
+                    <!-- r item 4 -->
+                    <div class="r-item">
+                        <div class="r-logo" style="background-color: #ff4646;">
+                            <i class="fa-solid fa-dog"></i>
+                        </div>
+                        <h5>Visit your chosen pet to confirm your choice</h5>
+                    </div>
+
+                    <!-- r item 3 -->
+                    <div class="r-item">
+                        <div class="r-logo" style="background-color: #ad6a9a;">
+                            <i class="fa-solid fa-clipboard"></i>
+                        </div>
+                        <h5>Wait for vet clearance and scheduled pick up</h5>
                     </div>
 
                     <!-- r item 4 -->
                     <div class="r-item">
                         <div class="r-logo" style="background-color: #46c7ff;">
-                            <i class="fa-regular fa-file-zipper"></i>
+                            <i class="fa-solid fa-money-bill-wave"></i>
                         </div>
-                        <h5>Signing an adoption agreement</h5>
+                        <h5>Pay the adoption fee of <b>₱500 (Cat) / ₱1000 (Dog)</b></h5>
                     </div>
 
                     <!-- r item 5 -->
@@ -127,7 +177,7 @@
                         <div class="r-logo" style="background-color: #4fffca;">
                             <i class="fa-regular fa-handshake"></i>
                         </div>
-                        <h5>Congratulations on finding a match</h5>
+                        <h5>Take your pet home!</h5>
                     </div>
                 </div>
             </div>
@@ -139,118 +189,25 @@
     <section class="pets" id="pets">
         <div class="pets-headlines">
             <i class="fa-solid fa-paw"></i>
-            <h1>Meet Your Soul Pets</h1>
+            <h1>Adoptable Pets at PAWS</h1>
         </div>
 
         <div class="pets-collection">
             <div class="pet-item">
-                <img src="img/pet-item-1.png" alt="img"> <!--wala me copy nung pic-->
-                <h3>Sir Woofs</h3>
+                <img src="img/pet-item-1.png" alt="img">
+                <h3>Mita</h3>
             </div>
             <div class="pet-item">
-                <img src="img/pet-item-2.png" alt="img"> <!--wala me copy nung pic-->
-                <h3>Captain Squawks</h3>
+                <img src="img/pet-item-2.png" alt="img"> 
+                <h3>Mateo</h3>
             </div>
             <div class="pet-item">
-                <img src="img/pet-item-3.png" alt="img"> <!--wala me copy nung pic-->
-                <h3>Professor Meow</h3>
+                <img src="img/pet-item-3.png" alt="img"> 
+                <h3>Tiktok</h3>
             </div>
         </div>
-        <button class="btn-3 btn-pets">
-            <p>Find More</p>
-            <i class="fa-solid fa-arrow-right-long"></i>
-        </button>
+        <a href="https://paws.org.ph/adopt/" class="btn-3 btn-pets">Find More<i class="fa-solid fa-arrow-right-long"></i></a>
     </section>
-
-    <!--About Section-->
-    <div class="about" id="about">
-        <div class="about-headlines">
-            <h1>About Us</h1>
-            <p class="reveal-type" data-bg-color="#cccccc" data-fg-color="black">
-                Purrfect is not just a
-                <b>pet adoption website</b>; it's a haven for both pets in search of 
-                their forever homes and compassionate individuals ready to welcome 
-                them with open arms.
-            </p>
-
-            <div class="about-info">
-                <div class="about-info-item">
-                    <h5>100+</h5>
-                    <h6>Saved Pets</h6>
-                </div>
-                <hr class="about-info-divider" />
-                <div class="about-info-item">
-                    <h5>100%</h5>
-                    <h6>Adoption Rate</h6>
-                </div>
-                <hr class="about-info-divider" />
-                <div class="about-info-item">
-                    <h5>5 Star</h5>
-                    <h6>Community Loved</h6>
-                </div>
-            </div>
-            <button class="btn-3">Get Started</button> 
-        </div>
-        <img src="img/about-img.png" alt="img" />
-    </div>
-
-    <!-- Testimonials Sections -->
-    <div class="testimonials" id="stories">
-        <h6>OUR REVIEWS</h6>
-        <h1>What People Say</h1>
-
-        <div class="testimony-container">
-            <!-- Testimony Item 1 -->
-            <div class="testimony-item">
-                <div class="testimony-people">
-                    <div class="testimony-name">
-                        <img src="img/testimony-image-1.png" alt="img"/>
-                        <div class="testimony-name-item">
-                            <h4>Emily Johnson</h4>
-                            <p>Sir Garfield's Owner</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <p class="testimony-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et interdum diam. Sed pellentesque sagittis dolor, eu euismod sapien feugiat eu. 
-                </p>
-            </div>
-                <!-- Testimony Item 2 -->
-            <div class="testimony-item">
-                <div class="testimony-people">
-                    <div class="testimony-name">
-                        <img src="img/testimony-image-2.png" alt="img"/>
-                        <div class="testimony-name-item">
-                            <h4>Maris Racal</h4>
-                            <p>Anthony's Owner</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <p class="testimony-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et interdum diam. Sed pellentesque sagittis dolor, eu euismod sapien feugiat eu. 
-                </p>
-            </div>
-            
-            <!-- Testimony Item 3 -->
-            <div class="testimony-item">
-                <div class="testimony-people">
-                    <div class="testimony-name">
-                        <img src="img/testimony-image-3.png" alt="img"/>
-                        <div class="testimony-name-item">
-                            <h4>Jamela Villanueva</h4>
-                            <p>ALSO Anthony's Owner</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <p class="testimony-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et interdum diam. Sed pellentesque sagittis dolor, eu euismod sapien feugiat eu. 
-                </p>
-            </div>
-        </div>
-    </div> 
 
     <!-- Footer Section -->
     <footer id="footer">
@@ -291,7 +248,7 @@
                 </div>
             </div>
         </div>
-        <p class="copyright">All Rights Reserved to <b>Purrfect</b></p>
+        <p class="copyright">All Rights Reserved to <b>Pawsitive</b></p>
     </footer>
     </body>
 </html>
