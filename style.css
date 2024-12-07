@@ -466,16 +466,17 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    color: rgb(220, 182, 17);
 }
 
 .links a{
-    display: white;
+    color: white;
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
 
 .links a:hover{
-    color: var(--accent);
+    color: #7ed957;
 }
 
 .footer-brand{
@@ -512,7 +513,7 @@ footer {
 }
 
 .socials a:hover{
-    background-color: var(--accent);
+    background-color: #7ed957;
 }
 
 .footer-contact-info{
