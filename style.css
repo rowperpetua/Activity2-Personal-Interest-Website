@@ -393,10 +393,12 @@ nav.sticky{
 .donate-text p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 900px;
+/*    width: 600px;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 400; */
     color: #555;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .donate-text i{
@@ -480,7 +482,7 @@ nav.sticky{
     margin: 10% auto;
     padding: 20px;
     border-radius: 10px;
-    width: 450px;
+    width: 300px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
 }
@@ -729,13 +731,47 @@ footer {
         width: 400px;
         height: 400px;
     }
-    
-    .testimony-container{
+
+    .donate-headlines {
         flex-direction: column;
+        gap: 20px;
+        margin-top: 80px;
     }
-    .testimony-item{
-        width: 545px;
+
+    .donate-headlines i {
+        font-size: 48px; 
     }
+
+    .donate-headlines h1 {
+        font-size: 2.5rem; 
+    }
+
+    .donate-text p {
+        width: 100%; 
+        font-size: 1.4rem; 
+        padding: 0 15px; 
+    }
+
+    .donate-buttons {
+        flex-direction: column; 
+        gap: 16px;
+    }
+
+    .donate-btn, 
+    .purchase-btn {
+        font-size: 1.3rem; 
+        padding: 12px 20px; 
+    }
+
+    .modal-content {
+        width: 75%; 
+        padding: 20px; 
+    }
+
+    .modal-content ul {
+        font-size: 1rem;
+    }
+    
     footer{
         padding: 20px 50px;
     }
@@ -880,38 +916,58 @@ footer {
         width: 100%;
         height: auto;
     }
+    .donate-headlines {
+        flex-direction: column;
+        gap: 12px; 
+        margin-top: 50px;
+    }
+
+    .donate-headlines i {
+        font-size: 35px; 
+    }
+
+    .donate-headlines h1 {
+        font-size: 1rem;
+    }
+
+    .donate-text p {
+        font-size: 0.8rem; 
+        padding: 0 10px; 
+    }
+
+    .donate-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .donate-btn, 
+    .purchase-btn {
+        font-size: 1rem; 
+        padding: 8px 16px; 
+    }
+
+    .close {
+        font-size: 1.2rem; 
+    }
+
+    .close-btn {
+        font-size: 0.9rem; 
+        padding: 8px 16px; 
+    }
+
     .modal-content {
-        width: 90%;
+        width: 90%; 
+        padding: 15px; 
     }
-    .testimonials{
-        padding: 0px 20px;
+
+    .modal-content h2 {
+        font-size: 1.2rem; 
     }
-    .testimonials h1{
-        font-size: 24px;
+
+    .modal-content ul {
+        font-size: 0.8rem; 
     }
-    .testimonials h6{
-        font-size: 16px;
-    }
-    .testimony-item{
-        width: 100%;
-        padding: 24px;
-    }
-    .testimony-text{
-        font-size: 13px;
-    }
-    .testimony-name img{
-        width: 34px;
-        height: 34px;
-    }
-    .testimony-name h4{
-        font-size: 16px;
-    }
-    .testimony-name i{
-        font-size: 12px;
-    }
-    .testimony-name p{
-        font-size: 12px;
-    }
+
     .footer-container{
         flex-direction: column;
     }
