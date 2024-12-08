@@ -551,71 +551,6 @@ nav.sticky{
     background-color: #e64e4e;
 }
 
-/*Testimonials Section*/
-.testimonials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 150px;
-}
-
-.testimonials h6{
-    font-size: 24px;
-    font-weight: 800;
-    color: var(--accent);
-}
-
-.testimonials h1{
-    font-size: 64px;
-    font-weight: 900;
-}
-
-.testimony-container{
-    display: flex;
-    margin-top: 34px;
-    gap: 24px;
-}
-
-.testimony-item{
-    display: flex;
-    flex-direction: column;
-    width: 430px;
-    height: 222px;
-    border: 1px solid var(--black);
-    border-radius: 12px;
-    padding: 24px 32px;
-}
-
-.testimony-people{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.testimony-people i{
-    font-size: 50px;
-    color: #ff5353;
-}
-
-.testimony-name{
-    display: flex;
-    gap: 14px;
-}
-
-.testimony-name h4{
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.testimony-name p{
-    opacity: 0.8;
-}
-
-.testimony-text{
-    font-weight: 600;
-    margin-top: 28px;
-}
-
 /*Footer*/
 footer {
     background-color: black;
@@ -995,25 +930,25 @@ footer {
         font-size: 10px;
     }
     .donate {
-        font-size: 16px; /* Slightly larger text for readability on small screens */
-        padding: 0 15px; /* Add padding for mobile screens */
+        font-size: 16px; 
+        padding: 0 15px;
     }
 
     .donate-btn, .purchase-btn {
-        font-size: 1.1rem; /* Increase font size on smaller screens */
-        padding: 10px 20px; /* Smaller padding for mobile screens */
+        font-size: 1.1rem;
+        padding: 10px 20px;
     }
 
     .donate-btn i, .purchase-btn i {
-        font-size: 1.5rem; /* Increase icon size slightly for mobile */
+        font-size: 1.5rem; 
     }
 
     .donate-headlines h1 {
-        font-size: 28px; /* Adjust the heading size on mobile */
+        font-size: 28px;
     }
 
     .donate-text p {
-        font-size: 18px; /* Slightly smaller text for paragraph */
-        margin-top: 30px; /* Reduced margin on smaller screens */
+        font-size: 18px;
+        margin-top: 30px;
     }
 }
