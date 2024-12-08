@@ -40,7 +40,7 @@
         <title>Pet Adoption Website</title>
     </head>
     <body>
-        <!--Navbar-->
+<!--Navbar-->
         <nav>
             <a href="index.html" class="brand">
                 <h1>Paw<b class="accent">sitive</b></h1>
@@ -65,7 +65,7 @@
             </div>
         </nav>
 
-        <!-- Hero Page Section -->
+<!-- Hero Page Section -->
         <section class="heropage">
             <div class="hero-headlines">
                 <h1>Pet Adoption Website</h1>
@@ -82,7 +82,7 @@
             </div>
         </section>
 
-        <!--About Section-->
+<!--About Section-->
         <div class="about" id="about">
             <div class="about-headlines">
                 <h1>About PAWS</h1>
@@ -117,7 +117,7 @@
             <img src="img/about-img.png" alt="img" />
         </div>
 
-        <!-- Requirements -->
+<!-- Requirements -->
         <section class="requirements" id="requirements">
             <div class="requirements-headlines">
                 <h1>PAWS Adoption Process</h1>
@@ -185,7 +185,7 @@
             <img src="img/requirements-img.png" alt="img"/>
         </section>
 
-        <!--Pets Section-->
+<!--Pets Section-->
     <section class="pets" id="pets">
         <div class="pets-headlines">
             <i class="fa-solid fa-paw"></i>
@@ -209,23 +209,75 @@
         <a href="https://paws.org.ph/adopt/" class="btn-3 btn-pets">Find More<i class="fa-solid fa-arrow-right-long"></i></a>
     </section>
 
-    <!--Donate Section-->
+<!--Donate and Purchase Section-->
     <section class="donate" id="donate">
         <div class="donate-headlines">
-            <h1>Support Our Mission</h1>
+            <i class="fa-solid fa-donate"></i>
+            <h1>Support Our Mission!</h1>
+        </div>
+        <div class="donate-text">
             <p>
-                Help us save lives! Your donations help us rescue more animals.
-                Every contribution makes a difference in their lives.
+                Help us save lives by donating any amount or purchasing our products, it would help us rescue more animals.
+                Every contribution makes a difference in their lives. <br>
+                <b>May God bless your good heart. <i class="fa-solid fa-heart"></i></b>
             </p>
         </div>
         <div class="donate-buttons">
-            <button class="donate-btn">
+            <button class="donate-btn" onclick="showDonationForm()">
                 <i class="fa-solid fa-heart"></i> Donate
             </button>
+            <a href="https://ph.shp.ee/VSFGpy9" target="_blank" class="purchase-btn">
+                <i class="fa-solid fa-cart-shopping"></i> Purchase
+            </a>
         </div>
     </section>
-
-    <!-- Footer Section -->
+    
+<!-- Modal for Donation (POPUP)-->
+    <div id="donation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDonationForm()">&times;</span>
+            <h2>Donation Accounts</h2>
+            <p>Please choose from one of the following accounts to make your donation:</p>
+            <ul class="donation-accounts">
+                <li>
+                    <strong>Bank Account (BDO):</strong><br>
+                    Account Name: Strays Worth Saving - SWS<br>
+                    Account Number: 0022 8600 2637<br>
+                    Account Name: Ma. Lourdes G. Perez<br>
+                    Account Number: 0019 6068 5005<br><br>
+                </li>
+                <li>
+                    <strong>Bank Account (UnionBank):</strong><br>
+                    Account Name: Melanie Ramirez<br>
+                    Account Number: 1094 5280 1813<br>
+                    Account Name: Pawssion Project Foundation Inc.<br>
+                    Account Number: 0027 9001 8188 <br><br>
+                </li>
+                <li>
+                    <strong>Bank Account (BPI):</strong><br>
+                    Account Name: Melanie Ramirez<br>
+                    Account Number: 1289 4940 37<br>
+                    Account Name: Pawssion Project Foundation Inc.<br>
+                    Account Number: 9251 0007 37<br><br>
+                </li>
+                <li>
+                    <strong>GCash:</strong><br>
+                    Name: (ME…E R.)<br>
+                    Mobile Number: 0917 636 3824<br>
+                    Name: (VL...R NI...L G.)<br>
+                    Mobile Number: 0905 111 0018<br>
+                    Name: Elena B.<br>
+                    Mobile Number: 0928 997 1868<br>
+                    Name: Ma Lourdes P.<br>
+                    Mobile Number: 0977 821 0271<br><br>
+                </li>
+            </ul>
+            <button class="close-btn" onclick="closeDonationForm()">
+                <i class="fa-solid fa-close"></i>Close</button>
+        </div>
+    </div>
+    
+<!-- Footer Section -->
     <footer id="footer">
         <div class="footer-container">
             <div class="footer-links">

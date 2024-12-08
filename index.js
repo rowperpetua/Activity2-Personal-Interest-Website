@@ -20,6 +20,24 @@ document.querySelector(".btn-3").addEventListener("click", () => {
   window.location.href = "https://paws.org.ph/adopt/";
 });
 
+//DONATION AND PURCHASE
+
+function showDonationForm() {
+    document.getElementById("donation-modal").style.display = "flex";
+}
+
+function closeDonationForm() {
+    document.getElementById("donation-modal").style.display = "none";
+}
+
+window.onclick = function (event) {
+    const modal = document.getElementById("donation-modal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
+
+
 // Lenis for Smooth Scrolling
 const lenis = new Lenis();
 function raf(time) {
