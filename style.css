@@ -843,11 +843,12 @@ footer {
         padding: 50px;
         transition: 0.5s;
         transition-property: right;
+        color: black;
     }
 
     nav .menu.active{
         right: 0;
-        color: black;
+        color: #7ed957;
     }
 
     nav .menu .close-btn{
