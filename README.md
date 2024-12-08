@@ -1,7 +1,7 @@
 # Pawsitive 🐾
 This is a user-friendly adoption website as a hub for multiple organizations that house shelters for pets. Its primary purpose is to host a collection of animal shelter organizations, making it easier for potential adopters to discover a wide variety of pets and connect with shelters efficiently.
 
-The website can be accessed at: **[Deployed Website Link](#)**
+The website can be accessed at: **[pawsitive-paws](https://pawsitive-paws.netlify.app/)**
 
 ## Components / Features
 This website has different sections for easier navigation.
