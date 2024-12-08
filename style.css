@@ -864,7 +864,7 @@ footer {
         margin: 20px;
         padding: 0 15px;
         background-color: var(--accent);
-        color: white;
+        color: rgb(8, 8, 8);
     }
 
     nav .btn-2{
