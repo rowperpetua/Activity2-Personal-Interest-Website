@@ -847,6 +847,7 @@ footer {
 
     nav .menu.active{
         right: 0;
+        color: black;
     }
 
     nav .menu .close-btn{
