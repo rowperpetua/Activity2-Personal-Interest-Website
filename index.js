@@ -15,13 +15,12 @@ document.querySelectorAll(".menu a").forEach((link) => {
   link.addEventListener("click", toggleMenu);
 });
 
-// Redirect buttons
+
 document.querySelector(".btn-3").addEventListener("click", () => {
   window.location.href = "https://paws.org.ph/adopt/";
 });
 
-//DONATION AND PURCHASE
-
+//Donate and Purchase
 function showDonationForm() {
     document.getElementById("donation-modal").style.display = "flex";
 }
